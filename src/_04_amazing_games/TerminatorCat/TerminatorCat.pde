@@ -8,7 +8,7 @@
 
 // This line of code creates a variable to hold your faccate picture
 // You will use it later.
-PImage cat;
+PImage 8ball;
 int x=0;
 int y=0;
 
@@ -16,15 +16,17 @@ void setup() {
   
 // 2. The code below loads your cat picture into the program. 
 //     Make sure the file name is correct for the cat image you saved earlier
-cat = loadImage("cat.jpg");
+8ball = loadImage("8ball.png");
   
 // 3. Set the size of the sketch. Make it big enough to show the cat you chose.
-
+size (500, 500);
+8ball.resize(500, 500);
 // 4. Resize the cat so it is the same size as the sketch
 
 // 5. DRAW CAT.    Use the background() command to make the cat the background of the sketch
 //    Run the program to see if the cat is drawn. Get this working before you go on.
  
+background(8ball);
 
   }
 
